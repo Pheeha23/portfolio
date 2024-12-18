@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pheeha Mangena | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hello, I'm Pheeha Mangena,<br><span class="auto-type"></span></h1>
+        </div>
+        <img class="picture-hero" src="images/graphic.png" alt="Pheeha Mangena">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Web Developer", "Designer", "Business Analyst", "System Analyst", "Project Manager"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            });
+        </script>
+    </section>
+
+    <!--About section-->
+
+    <section id="about" class="about">
+        <img class="picture-about" src="images/mypic.png" alt="Pheeha Mangena">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a curious and driven individual with a passion for leveraging technology to foster innovation and efficiency. Currently pursuing a Diploma in Informatics at Tshwane University of Technology, I am building a strong foundation in data analysis, system design, and technical problem-solving.</p>
+                <br>
+                <a class="button-85" href="my Resume.pdf" download>Download CV</a>
+                <div class="icons">
+                    
+                    <a href="https://www.linkedin.com/in/mangena-pheeha-1574812ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="timeline">
+        <h1 class="heading">Education and Experience</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">2013 - 2019</h2>
+                <h4>Ditlalemeso Secondary School</h4>
+                <p>Obtained my National Senior Certificate (NSC) with a Bachelor's admission.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">July 2024 - August 2024</h2>
+                <h4>CodSoft</h4>
+                <p>Web Development Intern</p>
+                <p>Developed skills in HTML, CSS, and JavaScript. Successfully completed tasks including a personal portfolio, calculator app, and a website landing page.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">May 2024 - June 2024</h2>
+                <h4>IBM SkillsBuild</h4>
+                <p>Completed the Data Analytics Fundamentals program, including virtual project-based learning and a capstone project.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">September 2024 - October 2024</h2>
+                <h4>HP Life Online Course</h4>
+                <p>Completed Agile Project Management training. Gained an understanding of Agile methodologies, Scrum, Kanban, and iterative product development processes.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">2022 - Present</h2>
+                <h4>Tshwane University of Technology</h4>
+                <p>Diploma in Informatics</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Projects section-->
+
+    <section id="projects" class="project-section">
+        <h1 class="project-heading">My Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                 <img src="images/project1.jpg" class="project-image" alt="Project 1">
+                 <div class="project-content">
+                      <h1 class="project-title">Saucy Delight</h1>
+                      <p class="project-info">A modern and responsive fast food restuarant landing page.Languages used HTML and CSS</p>
+                      <div class="project-btn-group">
+                        <a href="#" class="project-btn github">GitHub Repo</a>
+                        
+                        <a href="saucy delight/index.html" class="project-btn live" target="_blank" rel="noopener noreferrer">See Live</a>
+
+                      </div>
+                 </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project2.png" class="project-image" alt="Project 2">
+                <div class="project-content">
+                     <h1 class="project-title">Calculator App</h1>
+                     <p class="project-info">A functional calculator built with HTML, CSS, and JavaScript.</p>
+                     <div class="project-btn-group">
+                       <a href="#" class="project-btn github">GitHub Repo</a>
+                       <a href="#" class="project-btn live">See Live</a> 
+                     </div>
+                </div>
+           </div>
+
+           <div class="project-card">
+            <img src="images/project3.png" class="project-image" alt="Project 3">
+            <div class="project-content">
+                 <h1 class="project-title">Landing Page</h1>
+                 <p class="project-info">A visually appealing landing page design for a fictional company.</p>
+                 <div class="project-btn-group">
+                   <a href="#" class="project-btn github">GitHub Repo</a>
+                   <a href="#" class="project-btn live">See Live</a> 
+                 </div>
+            </div>
+       </div>
+
+       <div class="project-card">
+        <img src="images/project4.png" class="project-image" alt="Project 2">
+        <div class="project-content">
+             <h1 class="project-title">Calculator App</h1>
+             <p class="project-info">A functional calculator built with HTML, CSS, and JavaScript.</p>
+             <div class="project-btn-group">
+               <a href="#" class="project-btn github">GitHub Repo</a>
+               <a href="#" class="project-btn live">See Live</a> 
+             </div>
+        </div>
+   </div>
+
+   <div class="project-card">
+    <img src="images/project5.png" class="project-image" alt="Project 2">
+    <div class="project-content">
+         <h1 class="project-title">Calculator App</h1>
+         <p class="project-info">A functional calculator built with HTML, CSS, and JavaScript.</p>
+         <div class="project-btn-group">
+           <a href="#" class="project-btn github">GitHub Repo</a>
+           <a href="#" class="project-btn live">See Live</a> 
+         </div>
+    </div>
+</div>
+
+<div class="project-card">
+    <img src="images/project6.png" class="project-image" alt="Project 2">
+    <div class="project-content">
+         <h1 class="project-title">Calculator App</h1>
+         <p class="project-info">A functional calculator built with HTML, CSS, and JavaScript.</p>
+         <div class="project-btn-group">
+           <a href="#" class="project-btn github">GitHub Repo</a>
+           <a href="#" class="project-btn live">See Live</a> 
+         </div>
+    </div>
+</div>
+
+       </div>
+    </section>
+
+    <!--Skills section-->
+
+    <section id="skills" class="skill-container">
+       <div class="skill-section">
+          <h1 class="skills-heading">Skills</h1>
+
+          <div class="skills-container">
+
+                 <div class="skills-card">
+                    <img src="images/html.png" class="skills-img" alt="HTML Icon">
+                    <div class="skill-level">95%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <P class="skill-info">Expert in creating semantic, structured, and accessible web pages.</P>
+                 </div>
+
+                 <div class="skills-card">
+                    <img src="images/css.png" class="skills-img" alt="CSS Icon">
+                    <div class="skill-level">80%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <P class="skill-info">Proficient in building responsive designs and modern layouts.</P>
+                 </div>
+
+                 <div class="skills-card">
+                    <img src="images/js.png" class="skills-img" alt="JavaScript Icon">
+                    <div class="skill-level">78%</div>
+                    <h1 class="skill-name">JavaScript</h1>
+                    <P class="skill-info">Skilled in implementing interactive and dynamic web functionality.</P>
+                 </div>
+
+                 <div class="skills-card">
+                    <img src="images/sql.png" class="skills-img" alt="SQL Icon">
+                    <div class="skill-level">90%</div>
+                    <h1 class="skill-name">SQL/T-SQL</h1>
+                    <P class="skill-info">Experienced in database design, queries, and optimization.</P>
+                 </div>
+
+                 <div class="skills-card">
+                    <img src="images/jav.png" class="skills-img" alt="Java Icon">
+                    <div class="skill-level">75%</div>
+                    <h1 class="skill-name">Java</h1>
+                    <P class="skill-info">Familiar with object-oriented programming and backend development.</P>
+                 </div>
+
+                 <div class="skills-card">
+                    <img src="images/python.png" class="skills-img" alt="Python Icon">
+                    <div class="skill-level">60%</div>
+                    <h1 class="skill-name">Python</h1>
+                    <P class="skill-info">Capable of writing scripts for data analysis and task automation.</P>
+                 </div>
+          </div>
+       </div>
+    </section>
+   
+      
+    <!--certificate section-->
+
+    <section id="certificates" class="certificates-section">
+        <h1 class="certificates-heading">Certificates</h1>
+        <div class="certificates-container">
+            <div class="certificates-card">
+                 <img src="images/cert1.jpg" class="certificates-image" alt="certificate 1">
+                 <div class="certificates-content">
+                      <h1 class="certificates-title">Agile Project Management</h1>
+                      <p class="certificates-info">Certification of completion for the HP LIFE online course.</p>
+                      <div class="certificates-btn-group">
+                        <a href="https://www.linkedin.com/in/mangena-pheeha-1574812ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="certificates-btn LinkedIn">View on LinkedIn</a>
+                      </div>
+                 </div>
+            </div>
+
+            <div class="certificates-card">
+                <img src="images/cert2.jpg" class="certificates-image" alt="certificate 2">
+                <div class="certificates-content">
+                     <h1 class="certificates-title">Introduction to tableau desktop</h1>
+                     <p class="certificates-info">Certification of completion for the IBM SKILLSBUILD program for Data Analytics Fundamentals.</p>
+                     <div class="certificates-btn-group">
+                        <a href="https://www.linkedin.com/in/mangena-pheeha-1574812ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="certificates-btn LinkedIn">View on LinkedIn</a> 
+                     </div>
+                </div>
+           </div>
+
+       <div class="certificates-card">
+        <img src="images/cert4.jpg" class="certificates-image" alt="certificate 3">
+        <div class="certificates-content">
+             <h1 class="certificates-title">Web Development</h1>
+             <p class="certificates-info">Certification of completion for my Web Development internship at CODSOFT.</p>
+             <div class="certificates-btn-group">
+                <a href="https://www.linkedin.com/in/mangena-pheeha-1574812ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="certificates-btn LinkedIn">View on LinkedIn</a>
+             </div>
+        </div>
+   </div>
+
+     
+
+   
+
+       </div>
+    </section>
+
+
+
+
+    <footer>
+        <section class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Social Media</h4>
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/mangena-pheeha-1574812ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <br>
+                    <p>Contact: (+27) 799-333-948</p>
+                    <p class="email">Email: <a href="mailto:phehamangena3@gmail.com">phehamangena3@gmail.com</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Me</h4>
+                    <p>Let's get in touch. Send me an email below:</p>
+                    <form id="contact" action="mailto:phehamangena3@gmail.com" method="POST" enctype="text/plain">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Send</button>
+                    </form>
+                    <p>&copy; 2024 Pheeha Mangena. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
